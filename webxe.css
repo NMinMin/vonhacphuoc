@@ -1,0 +1,412 @@
+*{margin: 0px; padding: 0px;}
+body
+{
+    font-family: 'Nunito';
+    background-image: linear-gradient(to bottom,rgb(34, 34, 34),rgb(96, 96, 96),rgb(61, 61, 61),rgb(50, 50, 50));
+}
+#vien
+{
+    margin: 0px 30px;
+    box-sizing: border-box;
+    width: 1450px;
+    height: 1880px;
+}
+.tennhanhieu
+{
+    float: left;
+    width:450px;
+    height:300px;
+    text-align: center;
+    color:white;
+}
+h1
+{
+    margin-top: 150px;
+    font-size: 45px;
+}
+span
+{
+    font-size: 15px;
+}
+.hinhanhnhanhieu
+{
+    float: left;
+    box-sizing: border-box;
+    width:900px;
+    height:300px;
+    background-size: 800px 380px;
+    background-repeat: no-repeat;
+    background-image: url(./images/o-to-moi-2-removebg-preview.png);
+}
+.main
+{
+    margin-top: 15px;
+    float: left;
+    border-width: 0px 0px 6px 0px;
+    border-style: solid;
+    border-color: rgb(255, 208, 0);
+    box-sizing: border-box;
+    width: 1450px;
+    height: 1434px;
+    background-color: rgb(74, 74, 74);
+}
+.head
+{
+    box-sizing: border-box;
+    width:1450px;
+    height:70px;
+    background-image: linear-gradient(to bottom, rgb(255, 221, 0),rgb(248, 198, 33),rgb(224, 140, 44));
+}
+.main9
+{
+    border:1px solid white;
+    box-sizing: border-box;
+    width:1450px;
+    height: 1357px;
+    background-color: rgb(107, 107, 107);
+
+}
+.footer
+{
+    margin-top:8px;
+    float: left;
+    box-sizing: border-box;
+    width: 1450px;
+    height: 120px;
+}
+.ptfooter
+{
+    margin: 15px;
+    float: left;
+    box-sizing: border-box;
+    width: 120px;
+    height: 40px;
+    line-height: 25px;
+    font-weight: 900;
+    font-size: 18px;
+    text-align: center;
+    color: gray;
+}
+.ptfooter:hover
+{
+    color:rgb(165, 165, 165);
+    cursor:pointer;
+}
+.final
+{
+    margin-top: 5px;
+    float: left;
+    box-sizing: border-box;
+    width: 1439px;
+    height: 45px;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+}
+.menu
+{
+    float: left;
+    box-sizing: border-box;
+    padding: 2px 0px;
+    width:175px;
+    height:70px;
+    line-height: 65px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 17px;
+}
+.menu:link
+{
+    border:0px solid black;
+    text-decoration: none;
+    color:black;
+}
+.menu:visited 
+{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.menu:hover
+{
+    width: 200px;
+    background-image: linear-gradient(to bottom, rgba(225, 139, 47, 0.621),rgba(199, 165, 52, 0.573),rgb(255, 136, 0));
+    font-size: 18px;
+    color:rgb(255, 255, 255);
+    text-shadow: 0px 0px 5px rgb(0, 0, 0);
+    cursor: pointer;
+    transition: ease-in 0.3s;
+}
+.menu:active
+{
+    border:0px solid black;
+    color:black;
+    text-decoration: none;
+}
+.thanhngan
+{
+    margin:22px 0px;
+    float: left;
+    border-width: 0px 0px 0px 2px;
+    border-style: solid;
+    border-color: rgb(77, 77, 77);
+    box-sizing: border-box;
+    height: 25px;
+}
+.trai
+{
+    float:left;
+    border-width: 0px 4px 0px 0px;
+    border-style: solid;
+    border-color: rgb(38, 38, 38);
+    box-sizing: border-box;
+    width: 293px;
+    height:1357px;
+}
+.tieude
+{
+    margin: 5px;
+    box-sizing: border-box;
+    padding: 10px 17px;
+    width:270px;
+    height:60px;
+    line-height: 55px;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+.showcase
+{
+    margin: 10px 20px;
+    float: left;
+    box-sizing: border-box;
+    width: 250px;
+    height: 400px;
+    background-color: rgb(65, 58, 58);
+}
+.tieudecarname
+{
+    margin-bottom: 38px;
+    box-sizing: border-box;
+    padding-left: 15px;
+    width: 249px;
+    height: 40px;
+    line-height: 40px;
+    background-color:#7a2b00;
+    font-size: 17px;
+    font-weight: bold;
+    color: rgb(255, 242, 0);
+}
+.carname
+{
+    margin: auto;
+    box-sizing: border-box;
+    width: 210px;
+    height:150px;
+}
+.ttsp
+{
+    margin: 35px auto auto auto;
+    box-sizing: border-box;
+    padding-left: 10px;
+    width: 225px;
+    height: 90px;
+    color: white;
+}
+.readmore
+{
+    margin: 5px 15px;
+    float: right;
+    box-sizing: border-box;
+    width: 82px;
+    height: 25px;
+    text-decoration: underline;
+    color:orange;
+}
+a
+{
+    text-decoration: underline;
+    color:orange;
+}
+a:hover
+{
+    color: rgb(225, 208, 134);
+    cursor:pointer;
+}
+#span1
+{
+    font-size: 18px;
+    text-decoration: underline;
+    color:rgb(200, 130, 0);
+}
+#span1:hover
+{
+    cursor:pointer;
+}
+.phai
+{
+    float:left;
+    box-sizing: border-box;
+    width:1148px;
+    height:1355px;
+}
+.phai1
+{
+    box-sizing: border-box;
+    width: 1148px;
+    height: 210px;
+}
+.phai11
+{
+    margin-left: 40px;
+    box-sizing: border-box;
+    padding-top: 30px;
+    height:85px;
+    font-size: 23px;
+    font-weight: 600;
+    color:white;
+}
+.phai12
+{
+    margin-left: 40px;
+    float:left;
+    box-sizing: border-box;
+    padding-top: 10px;
+    width: 800px;
+    height:210px;
+    font-size: 17px;
+    color:white;
+}
+.phai2
+{
+    float:left;
+    box-sizing: border-box;
+    width: 1150px;
+    height: 340px;
+}
+.tieudep2
+{
+    float: right;
+    box-sizing: border-box;
+    padding: 7px 10px;
+    width: 1120px;
+    height: 40px;
+    background-color: rgb(38, 38, 38);
+    font-weight: 600;
+    color: rgb(202, 202, 42);
+}
+.noidungp2
+{
+    margin: 10px;
+    float: left;
+    box-sizing: border-box;
+    padding-left:20px;
+    width: 800px;
+    height: 280px;
+    font-size: 18px;
+    color:white;
+}
+#readmorep21
+{
+    margin:15px;
+    float:right;
+    box-sizing: border-box;
+    width:105px;
+    height:70px;
+    background-color: unset;
+    text-align: center;
+    font-size: 17px;
+    text-decoration:underline;
+    color:orange;
+}
+#readmorep22
+{
+    margin:15px;
+    float:right;
+    box-sizing: border-box;
+    width:105px;
+    height:70px;
+    font-size: 17px;
+    text-align: center;
+    text-decoration:underline;
+    color:orange;
+}
+.readmorefoot
+{
+    margin:0px 5px;
+    float:right;
+    box-sizing: border-box;
+    width:105px;
+    height:70px;
+    font-size: 17px;
+    text-align: center;
+    text-decoration:underline;
+    color:orange;
+}
+.noidungpfoot
+{
+    margin: 0px 35px;
+    float: left;
+    box-sizing: border-box;
+    padding-left:20px;
+    width: 1100px;
+    height: 110px;
+    font-size: 18px;
+    color:white;
+}
+.tieudefoot
+{
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    padding: 7px 55px;
+    width:1450px;
+    height:55px;
+    font-size: 25px;
+    font-weight: 700;
+    color:white;
+}
+#hide1
+{
+    margin: 0px 5px;
+    box-sizing: border-box;
+    width:800px;
+    height:115px;
+    display:none;
+}
+#hide2
+{
+    box-sizing: border-box;
+    margin: 0px 5px;
+    width:800px;
+    height:115px;
+    display:none;
+}
+#readmorep21:hover
+{
+    color: rgb(225, 208, 134);
+    cursor:pointer;
+}
+#readmorep22:hover
+{
+    color: rgb(225, 208, 134);
+    cursor:pointer;
+}
+.readmorefoot:hover
+{
+    color: rgb(225, 208, 134);
+    cursor:pointer;
+}
+.hinhp2
+{
+    margin:50px 35px;
+    float:left;
+    box-sizing: border-box;
+    width:250px;
+    height:150px;
+}
+.phai3
+{
+    float:left;
+    box-sizing: border-box;
+    width:1157px;
+    height:380px;
+}

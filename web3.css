@@ -1,0 +1,98 @@
+*{margin: 0px; padding: 0px;}
+body
+{
+    font-family: 'Book Antiqua';
+}
+body::-webkit-scrollbar
+{
+    display: none;
+}
+#vien1
+{
+    margin: auto;
+    border: 2px solid #b8b7bb;
+    width: 1330px;
+    height:830px;
+}
+#vien2
+{
+    margin: auto;
+    margin-top: 10px;
+    border: 7px solid #329bc0;
+    width: 1300px;
+    height: 800px;
+}
+.header
+{
+    margin: auto;
+    width: 1280px;
+    height:160px;
+    font-family: 'Century Gothic';
+    color: #379acf;
+}
+.header h1
+{
+    margin-bottom: 20px;
+    width: 100px;
+    height: 75px;
+    font-weight: 300;
+}
+.header .menu ul
+{
+    border: solid gray;
+    border-width: 1px 0px;
+    height: 50px;
+}
+.ptmenu{
+    margin-right: 50px;
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    color: #379acf;
+    display: inline-block;
+}
+.ptmenu:hover
+{
+    background-color: rgb(147, 180, 194);
+    color: rgb(255, 255, 255);
+}
+#vien2 .main
+{
+    margin: auto;
+    width: 1280px;
+    height:580px;
+}
+.main .hinhanh
+{
+    margin-top: 5px;
+    float: left;
+    width: 750px;
+    height: 470px;
+}
+.main .tieude
+{
+    margin-bottom: 20px;
+    margin-left: 20px;
+    float: left;
+    width: 500px;
+}
+.main p
+{
+    margin-left: 20px;
+    float:left;
+    width: 500px;
+}
+.muiten
+{
+    border: 2px solid black;
+    border-radius: 15px;
+    top: 650px;
+    left: 1450px;
+    position: fixed;
+    width: 70px;
+    height: 70px;
+}

@@ -1,0 +1,93 @@
+*{
+    margin: 0px; 
+    padding: 0px;
+}
+body
+{
+    background-size:1550px 800px ;
+    background-image: url(./image/wallpapersden.com_kaedehara-kazuha-art-genshin-impact_1920x1080.jpg);
+    font-family:sans-serif;
+}
+body::-webkit-scrollbar
+{
+    display: none;
+}
+ul.menucha
+{
+    margin:auto;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    width: 1500px;
+    height: 50px;
+    min-width: 100%;
+    min-height: 100%;
+    background-color: rgba(165, 42, 42, 0.451);
+    position: fixed absolute;
+    left: 20px;
+    z-index: 1;
+}
+ul.menucha > li
+{
+    float: left;
+    padding-right: 15px;
+    width: 200px;
+    list-style:none;
+    text-align: center;
+    position:relative;
+}
+ul.menucha > li > a
+{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 50px;
+    text-decoration: none;
+    color: white;
+}
+ul.menucha > li:hover
+{
+    border-radius: 5px;
+    background-color: rgba(249, 161, 8, 0.538);
+    font-size: 20px;
+    display: block;
+    transition: ease-in 0.15s;
+    cursor: pointer;
+}
+ul.menucon
+{
+    border-radius: 0px 0px 5px 5px;
+    box-sizing: border-box;
+    padding-left: 30px;
+    width: 300px;
+    height: 260px;
+    background-color: rgba(255, 255, 255, 0.399);
+    text-align: left;
+    display: none;
+    position: absolute;
+}
+ul.menucon li
+{
+    list-style: none;
+}
+ul.menucon li a
+{
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 50px;
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+    display: block;
+}
+ul.menucon li a:hover
+{
+    border-radius: 0px 0px 5px 5px;
+    font-size: 19px;
+    font-weight: 600;
+    color:rgb(0, 0, 0);
+    text-shadow: 0 0 10px rgb(249, 161, 8);
+}
+ul.menucha > li:hover ul.menucon
+{
+    display :block;
+    transition: ease-in 0.15s;
+}

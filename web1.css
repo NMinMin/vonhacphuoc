@@ -1,0 +1,151 @@
+*{margin: 0px; padding: 0px;}
+body
+{
+    font-family: 'Comic Sans MS';
+}
+body::-webkit-scrollbar
+{
+    display: none;
+}
+#vien
+{
+    border: 3px solid rgb(58, 58, 58);
+    width: 1530px;
+    height: 1800px;
+}
+#vien .header
+{
+    margin:auto;
+    margin-top: 30px;
+    border: solid gray;
+    border-width: 0px 1px 1px 0px;
+    width: 1450px;
+    height: 200px;
+}
+.header .logo
+{
+    margin: auto;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    border: 10px ridge rgb(170, 109, 67);
+    width: 500px;
+    height: 100px;
+    background-color: rgb(131, 131, 131);
+    text-align: center;
+    color: white;
+}
+.header .logo .logotext
+{
+    line-height: 50px;
+}
+.header .logo .tao
+{
+    position:absolute;
+    left:475px;
+    top:110px;
+    width: 60px;
+    height: 60px;
+}
+.header .menu
+{
+    margin: auto;
+    width: 400px;
+    height: 20px;
+    font-size: 15px;
+}
+#vien .main
+{
+    margin: auto;
+    margin-bottom: 50px;
+    border: solid black;
+    border-width: 0px 1px 0px 0px;
+    width: 1450px;
+    height: 1250px;
+}
+.main .astro
+{
+    width: 300px;
+    height: 50px;
+    color: rgb(134, 11, 38);
+}
+.main .astro1
+{
+    width: 1300px;
+    height: 40px;
+    font-size: 18px;
+    color: green;
+}
+.main .left
+{
+    margin: 20px 50px;
+    float: left;
+    width: 800px;
+    height: 800px;
+}
+.main ul li
+{
+    margin-bottom:20px;
+    list-style-image: url(../img/apple.png);
+    color: rgb(134, 11, 38);
+}
+.main ul li .noidungtrai
+{
+    font-size: 18px;
+    color: green;
+}
+.main .right
+{
+    margin-left: 10px;
+    float: left;
+    border: 2px solid green;
+    padding: 15px 10px;
+    width: 490px;
+    height: 800px;
+    background-color: #fddda6;
+}
+.main h2
+{
+    color: rgb(134, 11, 38);
+}
+.main .noidung
+{
+    margin: 35px 0px;
+    font-size: 15px;
+    color:green;
+}
+.main .cuoi
+{
+    float: left;
+    width: 1420px;
+    height: 300px;
+}
+#vien .footer
+{
+    margin: auto;
+    border: solid black;
+    border-width: 1px 0px 0px 0px;
+    width: 1450px;
+    height: 100px;
+}
+.main .noidungcuoi
+{
+    margin: 20px 0px;
+    font-size: 15px;
+    color:green;
+    background-color: rgb(157, 157, 157);
+}
+.footer .noidungfooter
+{
+    font-size: 8px;
+    color:green;
+}
+.muiten
+{
+    border: 2px solid black;
+    border-radius: 15px;
+    width: 70px;
+    height: 70px;
+    left: 1400px;
+    top: 650px;
+    position: fixed;
+}

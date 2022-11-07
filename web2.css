@@ -1,0 +1,93 @@
+*{margin: 0px; padding: 0px;}
+body
+{
+    font-family:'Rockwell';
+    background-color: #fcfdce;
+    color: rgb(97, 61, 24);
+}
+#vien
+{
+    margin: auto;
+    margin-top: 50px;
+    border: 0px solid black;
+    width: 1300px;
+    height: 533px;
+}
+.trenduoi
+{
+    border: solid black;
+    border-width: 3px;
+    width: 1300px;
+    height: 80px;
+    background-color: #ccaa63;
+}
+.trenduoi .tieude
+{
+    line-height: 70px;
+    text-align: center;
+    color: rgb(92, 38, 38);
+}
+.main
+{
+    border: solid black;
+    border-width: 0px 3px;
+    width: 1300px;
+    height:365px ;
+}
+.main .menu
+{
+    float: left;
+    width: 340px;
+    height:365px;
+    background-color: #e8d883;
+}
+.main .menu ul li
+{ 
+    margin-top: 10px;
+    list-style-type: none;
+}
+.main .menu ul li a
+{
+    padding-left: 20px;
+    height: 40px;
+    font-size: 20px;
+    line-height: 40px;
+    text-decoration: none;
+}
+.main .menu ul li a:hover
+{
+    background-color: #f9f9f997;
+    font-size: 22px;
+    display: block;
+    transition: ease-in 0.3s;
+}
+.main .ndchinh
+{
+    float: left;
+    width: 955px;
+    height: 486px;
+    font-size: 20px;
+}
+.main .ndchinh .noidung
+{
+    margin-top: 20px;
+    margin-left: 40px;
+    float: left;
+    width: 600px;
+    height: 366px;
+}
+.main .ndchinh .noidung h3
+{
+    font-weight: 300;
+}
+.main .ndchinh .noidung2 p
+{
+    font-weight: 300;
+}
+.main .ndchinh .hinhanh
+{
+    margin-top: 50px;
+    float: left;
+    width:304px;
+    height: 250px;
+}

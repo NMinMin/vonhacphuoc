@@ -1,0 +1,127 @@
+*
+{ padding: 0px; margin: 0px;}
+/*Phần bên trái*/
+body
+{
+    font-family:'Segoe UI';
+}
+body::-webkit-scrollbar
+{
+    display: none;
+}
+.menu
+{
+    height:760px;
+    width:180px;
+    background-color: rgb(23, 23, 23);
+    float:left;
+}
+.ptmenu
+{
+    border-width: 1px 0px;
+    border-style: solid;
+    border-color: gray;
+    height:60px;
+    width:180px;
+    padding-left: 10px;
+    float: left;
+    box-sizing: border-box;
+    text-decoration: none;
+    line-height: 58px;
+    color: white;
+    font-size: 16px;
+}
+.ptmenu:hover
+{
+    border-bottom: 3px solid orange;
+    height: 65px;
+    background-color: rgba(128, 128, 128, 0.218);
+    font-size: 18px;
+    transition: ease-in 0.3s;
+}
+.ptmenu:visited
+{
+    border-width: 1px 0px;
+    border-style: solid;
+    border-color: gray;
+    height:60px;
+    width:180px;
+    padding-left: 10px;
+    float: left;
+    box-sizing: border-box;
+    text-decoration: none;
+    line-height: 58px;
+    color: white;
+    font-size: 16px;
+}
+/*Phần bên phải*/
+.noidung
+{
+    height:700px;
+    width:1200px;
+    margin-left: 120px;
+    float:left;
+    box-sizing: border-box;
+}
+.logo
+{
+    height:80px;
+    width:300px;
+    margin:auto;
+    margin-top: 10px;
+}
+.tenlayout
+{
+    height:70px;
+    width:1100px;
+    margin: auto;
+    padding:20px;
+    font-size: 18px;
+    color:gray;
+    font-weight: 600;
+    text-align: center;
+    box-sizing: border-box;
+}
+.modau
+{
+    height:200px;
+    width:1200px;
+    margin:auto;
+    padding:50px 220px;
+    background-color: rgb(236, 236, 236);
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 15px;
+}
+.khoahoc
+{
+    height:330px;
+    width:400px;
+    margin-top: 40px;
+    float:left;
+    box-sizing: border-box;
+    padding-right: 40px;
+    text-align: left;
+}
+.hinhanh
+{
+    padding: 0px 5px;
+    float: left;
+}
+span
+{
+    font-size: 14px;
+}
+.banquyen
+{
+    border-width: 1px 0px 0px 0px;
+    border-style: solid;
+    border-color: rgb(177, 177, 177);
+    height: 35px;
+    width: 1330px;
+    padding-left: 40px;
+    float: left;
+    box-sizing: border-box;
+    color: rgb(139, 139, 139);
+    padding-top: 5px;
+}
